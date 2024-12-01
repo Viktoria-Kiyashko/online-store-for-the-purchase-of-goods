@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подтверждение кода</title>
+    <link rel="stylesheet" href="verification.css">
+</head>
+<body>
+    <div class="verification-form">
+        <h1>Подтверждение телефона</h1>
+        <p>На указанный номер был отправлен четырехзначный код. Пожалуйста, введите его ниже:</p>
+        <form id="verification-form">
+            <label for="verification-code">Код подтверждения *</label>
+            <input type="text" id="verification-code" name="verification-code" maxlength="4" placeholder="Введите код" required>
+
+            <small id="verification-error" style="color: red; display: none;">Неверный код. Попробуйте еще раз.</small>
+            
+            <button type="submit">Подтвердить</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

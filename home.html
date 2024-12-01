@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Поисковая строка -->
+        <header>
+            <input type="text" id="search-bar" placeholder="Искать товары..." />
+        </header>
+
+        <!-- Раздел со скидками -->
+        <section class="discount-section">
+            <h2>Скидки</h2>
+            <div class="discount-banner">
+                <img src="img/coffe sale.jpg" alt="Скидка на кофе">
+                <div class="banner-info">
+                    <h3>40% скидка на кофе</h3>
+                    <p>Начни свой день с лучшим вкусом!</p>
+                    <button>Заказать сейчас</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Кнопки для фильтрации -->
+        <nav class="filter-nav">
+            <button class="filter-button" data-filter="new">Новинки</button>
+            <button class="filter-button" data-filter="recommended">Рекомендации</button>
+            <button class="filter-button" data-filter="popular">Популярные</button>
+        </nav>
+
+        <!-- Карточки товаров -->
+        <section id="product-list" class="product-list">
+            <!-- Карточки заполняются через JavaScript -->
+        </section>
+    </div>
+
+    <div class="bottom-panel">
+        <a href="home.html" class="icon home">
+            <img src="img/home.png" alt="Home">
+        </a>
+        <a href="favorite.html" class="icon favorites">
+            <img src="img/favorite.png" alt="Favorites">
+        </a>
+        <a href="cart.html" class="icon cart">
+            <img src="img/cart.png" alt="Cart">
+        </a>
+        <a href="person.html" class="icon profile">
+            <img src="img/profile.png" alt="Profile">
+        </a>
+    </div>
+
+ 
+
+
+    <script src="script.js" defer></script>
+</body>
+</html>

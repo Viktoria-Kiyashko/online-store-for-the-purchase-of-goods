@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход в аккаунт</title>
+    <link rel="stylesheet" href="open.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Добро пожаловать</h1>
+        <form id="login-form">
+            <label for="phone-email">Телефон или Email</label>
+            <input type="text" id="phone-email" name="phone-email" placeholder="Введите номер телефона или email" required>
+            <small id="error-message" style="color: red; display: none;">Неверный формат! Проверьте ввод.</small>
+            <button type="submit">Войти</button>
+        </form>
+        
+        <div class="register-link">
+            <p>Нет аккаунта? <a href="register.html">Зарегистрируйтесь</a></p>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>

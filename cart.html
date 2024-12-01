@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <title>Корзина</title>
+</head>
+<body>
+    <header>
+        <div id="cart-summary-wrapper">
+            <div id="cart-icon">
+                <i class="cart-icon"></i>
+                <div id="cart-notification" class="cart-notification">
+                    <span class="item-label">Всего товаров:</span>
+                    <span id="item-count">0</span>
+                </div>
+            </div>
+        </div>
+        <h2 id="cart-title">Корзина</h2>
+    </header>
+
+    
+    <div id="cart-content">
+        <!-- Сюда будет рендериться содержимое корзины -->
+    </div>
+
+    <div id="total-container">
+        <h3>Общая сумма: <span id="total-price">0 ₽</span></h3>
+    </div>
+
+    <div class="bottom-panel">
+        <a href="home.html" class="icon home">
+            <img src="img/home.png" alt="Home">
+        </a>
+        <a href="favorite.html" class="icon favorites">
+            <img src="img/favorite.png" alt="Favorites">
+        </a>
+        <a href="cart.html" class="icon cart">
+            <img src="img/cart.png" alt="Cart">
+        </a>
+        <a href="person.html" class="icon profile">
+            <img src="img/profile.png" alt="Profile">
+        </a>
+    </div>
+
+    <script src="cart.js" defer></script>
+</body>
+</html>

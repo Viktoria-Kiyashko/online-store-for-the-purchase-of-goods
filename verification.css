@@ -1,0 +1,69 @@
+
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9a7349;
+    margin: 0;
+    padding: 0;
+    font-size: 14px; 
+    line-height: 1.5;
+}
+
+.verification-form {
+    
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #653a1a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: grid
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #452606;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #edba5c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #f0b74d;
+}
+
+small {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
+@media screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+    body {
+        background-color: #f0f0f0; 
+    }
+}
